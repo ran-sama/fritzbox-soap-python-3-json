@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import requests, time, socket, hmac, base64, hashlib
+import requests
 import xml.etree.ElementTree as ET
 
 url = "http://10.0.0.1:49000/igdupnp/control/WANCommonIFC1"
