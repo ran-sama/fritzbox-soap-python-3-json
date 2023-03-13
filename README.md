@@ -13,7 +13,7 @@ ran@odroidxu4:~$ chmod +x soapless-soap.py
 ran@odroidxu4:~$ ./soapless-soap.py
 ['442.044', '58.469', '8', '0']
 ```
-Values for total download, upload in GiB and current download and upload in Mbit/s.
+Values for total download, upload in GiB and current download and upload in Mbit/s. To be used with wireless displays or rrdtool scripts as in my other projects.
 
 ## License
 Licensed under the WTFPL license.
