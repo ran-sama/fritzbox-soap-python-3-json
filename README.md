@@ -5,7 +5,7 @@ Using vanilla python 3 to not get your hands dirty doing SOAP requests. As in no
 Use this instead and thank me later:  
 https://github.com/kbr/fritzconnection  
 
-## Using my poor man's "SOAP" request
+## Using the poor man's "SOAP" request
 Regards to everyone else using plain vanilla python 3 and not further losing their minds. This works with UPnP in restricted rights setting. You don't need your FB's username nor password.
 
 ```
