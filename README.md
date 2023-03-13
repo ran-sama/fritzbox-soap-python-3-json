@@ -15,7 +15,7 @@ ran@odroidxu4:~$ ./soapless-soap.py
 ```
 Values for total download, upload in GiB and current download and upload in Mbit/s. To be used with wireless displays or rrdtool scripts as in my other projects.
 
-## RRDtool example
+## Traffic monitor RRDtool example
 
 ![alt text](https://raw.githubusercontent.com/ran-sama/fritzbox-soapless-soap-requests/master/images/dl_example.png
 )
