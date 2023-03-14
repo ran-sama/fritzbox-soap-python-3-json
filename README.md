@@ -1,9 +1,6 @@
 # fritzbox-vanilla-soap-requests
 Using vanilla python 3 to not get your hands dirty doing SOAP requests. As in no external libraries needed.
 
-## Docs  
-https://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/IGD2.pdf  
-
 ## The poor man's "SOAP" request
 Regards to everyone else using plain vanilla python 3 and not further losing their minds. This works with UPnP in restricted rights setting. You don't need your FB's username nor password.
 
@@ -22,6 +19,9 @@ rrdtool create traffic.rrd --step 60 DS:download:GAUGE:600:U:U DS:upload:GAUGE:6
 )
 ![alt text](https://raw.githubusercontent.com/ran-sama/fritzbox-soapless-soap-requests/master/images/ul_example.png
 )
+
+## Docs  
+https://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/IGD2.pdf  
 
 ## License
 Licensed under the WTFPL license.
