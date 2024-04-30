@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import hashlib, requests, subprocess, base64, re
+import hashlib, requests, base64, re
 import xml.etree.ElementTree as ET
 
 def main():
