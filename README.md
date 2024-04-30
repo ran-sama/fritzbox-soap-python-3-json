@@ -18,7 +18,7 @@ Basic ZnJpdHoxMjM0OmZveDc4OTA=
 123.132.213.231
 ```
 
-You can even do fully authorized SOAP requests now!
+You can even do fully authorized SOAP requests now! This example prints your external IP.
 
 ## Traffic monitor RRDtool example
 ```
