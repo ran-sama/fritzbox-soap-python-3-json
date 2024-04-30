@@ -30,7 +30,9 @@ rrdtool create traffic.rrd --step 60 DS:download:GAUGE:600:U:U DS:upload:GAUGE:6
 )
 
 ## Docs  
+https://avm.de/service/schnittstellen/  
 https://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/IGD2.pdf  
+https://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/AVM_TR-064_first_steps.pdf  
 
 ## License
 Licensed under the WTFPL license.
