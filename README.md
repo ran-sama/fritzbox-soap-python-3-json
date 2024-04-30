@@ -11,6 +11,15 @@ ran@odroidxu4:~$ ./soapless-soap.py
 ```
 Values for total download, upload in GiB and current download and upload in Mbit/s. To be used with wireless displays or rrdtool scripts as in my other projects.
 
+```
+ran@odroidxu4:~ $ ./full-sid-authorization.py
+Bearer a3cddb40a8fa1970
+Basic ZnJpdHoxMjM0OmZveDc4OTA=
+123.132.213.231
+```
+
+You can even do fully authorized SOAP requests now!
+
 ## Traffic monitor RRDtool example
 ```
 rrdtool create traffic.rrd --step 60 DS:download:GAUGE:600:U:U DS:upload:GAUGE:600:U:U RRA:MAX:0.5:1:1080
