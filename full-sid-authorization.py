@@ -38,7 +38,7 @@ def main():
     # let us continue with the modern SID way
     url = "http://10.0.0.1:49000/igdupnp/control/WANIPConn1"
     headers = {'soapaction': 'urn:schemas-upnp-org:service:WANIPConnection:1#GetExternalIPAddress', 'Authorization': method_modern, 'content-type': 'text/xml','charset': 'utf-8'}
-    body = """<?xml version="1.0" encoding="utf-8"?><s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><u:GetExternalIPAddress xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1"></u:GetExternalIPAddress></s:Body></s:Envelope>"""
+    body = """<?xml version='1.0' encoding='utf-8'?><s:Envelope s:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:s='http://schemas.xmlsoap.org/soap/envelope/'><s:Body><u:GetExternalIPAddress xmlns:u='urn:schemas-upnp-org:service:WANIPConnection:1' /></s:Body></s:Envelope>"""
     boxdata = requests.post(url,data=body,headers=headers).content.decode('utf-8')
 
     # nested XML are easier to parse with regex
