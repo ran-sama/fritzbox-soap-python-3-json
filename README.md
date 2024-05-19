@@ -6,15 +6,13 @@ Regards to everyone else using plain vanilla python 3 and not further losing the
 
 ```
 ran@odroidxu4:~$ chmod +x soapless-soap.py
-ran@odroidxu4:~$ ./soapless-soap.py
+ran@odroidxu4:~$ ./traffic-soap.py
 ['442.044', '58.469', '8', '0']
 ```
 Values for total download, upload in GiB and current download and upload in Mbit/s. To be used with wireless displays or rrdtool scripts as in my other projects.
 
 ```
-ran@odroidxu4:~ $ ./sid-authorized-ip.py
-Bearer a3cddb40a8fa1970
-Basic ZnJpdHoxMjM0OmZveDc4OTA=
+ran@odroidxu4:~ $ ./soap-ip.py
 123.132.213.231
 ```
 
