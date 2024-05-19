@@ -1,5 +1,5 @@
-# fritzbox-vanilla-soap-requests
-Using vanilla python 3 to not get your hands dirty doing SOAP requests. As in no external libraries needed.
+# fritzbox-soap-python-json
+Using python 3 to send SOAP requests and get JSON formatted replies.
 
 ## The poor man's "SOAP" request
 Regards to everyone else using plain vanilla python 3 and not further losing their minds. This works with UPnP in restricted rights setting. You don't need your FB's username nor password.
