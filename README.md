@@ -129,6 +129,24 @@ ran@raspberrypi:~ $ ./soap-dsl7.py
 }
 ```
 ```
+ran@raspberrypi:~ $ ./soap-dsl8.py
+{
+    "@xmlns:u": "urn:dslforum-org:service:DeviceInfo:1",
+    "NewManufacturerName": "AVM",
+    "NewManufacturerOUI": "000XXX",
+    "NewModelName": "FRITZ!Box 7590 (UI)",
+    "NewDescription": "FRITZ!Box 7590 (UI) Release 154.07.57",
+    "NewProductClass": "FRITZ!Box",
+    "NewSerialNumber": "redacted",
+    "NewSoftwareVersion": "154.07.57",
+    "NewHardwareVersion": "FRITZ!Box 7590 (UI)",
+    "NewSpecVersion": "1.0",
+    "NewProvisioningCode": "0XX.000.000.000",
+    "NewUpTime": "455673",
+    "NewDeviceLog": null
+}
+```
+```
 ran@raspberrypi:~ $ ./soap-ip.py
 {
     "@xmlns:u": "urn:schemas-upnp-org:service:WANIPConnection:1",
