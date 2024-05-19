@@ -147,6 +147,16 @@ ran@raspberrypi:~ $ ./soap-dsl8.py
 }
 ```
 ```
+ran@raspberrypi:~ $ ./soap-dsl9.py
+{
+    "@xmlns:u": "urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1",
+    "NewWANAccessType": "DSL",
+    "NewLayer1UpstreamMaxBitRate": "45644000",
+    "NewLayer1DownstreamMaxBitRate": "280064000",
+    "NewPhysicalLinkStatus": "Up"
+}
+```
+```
 ran@raspberrypi:~ $ ./soap-ip.py
 {
     "@xmlns:u": "urn:schemas-upnp-org:service:WANIPConnection:1",
