@@ -1,4 +1,4 @@
-# fritzbox-soap-python-3-json
+# fritzbox-soap-json
 Using Python 3 to send SOAP requests and get JSON formatted replies.
 ```
 sudo apt install python3-xmltodict
